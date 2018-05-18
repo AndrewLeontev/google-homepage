@@ -6,6 +6,20 @@ body {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
+ul {
+    float: right;
+    list-style-type: none;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+li {
+    float: left;
+}
 content {
     max-width: 940px;
     position: relative;
