@@ -10,7 +10,7 @@ header {
     padding: 0;
     float: right;
 }
-.menu li a {
+.menu li a, footer ul li a {
     text-decoration: none;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.87);
@@ -75,4 +75,49 @@ input:hover, input:focus {
 }
 .lang {
     font-size: 14px;
+}
+/* footer */
+footer {
+    background-color: #e3e3e5;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    padding: 0px 40px;
+    border-top: 1px solid rgba(57, 57, 57, 0.25);
+    bottom: 0;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.footleft li {
+    float: left;
+}
+.footleft a {
+    display: block;
+    color: #505050;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 10px;
+}
+.footleft a:hover {
+    text-decoration-line: underline;
+}
+.footright a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.footright a:hover {
+    text-decoration-line: underline;
+}
+.footright li {
+    float: right;
+}
+footer ul {
+    float: left;
+    width: calc(100% / 2 - 40px);
 }
