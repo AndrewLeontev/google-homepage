@@ -33,3 +33,35 @@ header {
     text-align: center;
     font-weight: 700;
 }
+/* content block */
+content {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 80px;
+}
+input {
+    height: 20px;
+    padding: 10px;
+    min-width: 560px;
+    border: 1px solid rgba(57,57,57, 0.15);
+    box-shadow: 0px 2px 3px 0px rgba(57, 57, 57, 0.10);
+    margin: 20px;
+}
+input:hover, input:focus {
+    box-shadow: 3px 4px 8px 3px rgba(57, 57, 57, 0.10);
+}
+.searchbtnblock {
+    margin: 10px;
+}
+.searchbtn {
+    height: 35px;
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    color: #6e6c6c;
+    border-radius: 5%;
+}
+.searchbtn:hover {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
